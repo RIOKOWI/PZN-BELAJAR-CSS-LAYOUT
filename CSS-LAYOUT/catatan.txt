@@ -1,0 +1,17 @@
+DIAGRAM FLEXBOX
+
+main axis = kiri ke kanan
+main start = kiri
+main end = kanan
+
+cross axis = atas ke bawah
+cross start = atas
+cross end = bawah
+
+main size = size di dalam flex item kiri ke kanan
+cross size = atas ke bawah di dalem flex item
+====================================================
+
+FLEX GROW
+
+100% : jumlah flex grow = hasil
