@@ -15,3 +15,8 @@ cross size = atas ke bawah di dalem flex item
 FLEX GROW
 
 100% : jumlah flex grow = hasil
+====================================================
+
+ROW = BARIS ATAS KE BAWAH
+COLLUMN = KOLOM KIRI KE KANAN 
+====================================================
