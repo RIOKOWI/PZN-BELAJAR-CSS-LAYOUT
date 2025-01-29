@@ -8,17 +8,19 @@
         .container {
             display: grid;
             border: 2px solid black;
-            grid-template-columns: [cline1] 100px [cline2]auto [cline3] 100px [cline4];
-            grid-template-rows: [rline1] 50px [rline2] auto [rlin3] 100px [rline4];
+            grid-template-columns:100px auto 100px;
+            grid-template-rows: 50px auto 100px;
+            grid-template-areas: 
+                "header header header"
+                ". content ."
+                "footer footer footer";
+            ;
         }
 
         .header {
             border: 2px solid red;
             background-color: yellowgreen;
-            grid-column-start: cline1;
-            grid-column-end: cline4;
-            grid-row-start: rline1;
-            grid-row-end: rline1;
+            grid-area: header;
         }
 
         h1 {
@@ -27,20 +29,14 @@
         }
         .content {
             border: 2px solid blue;
-            background-color: bisque;
+            background-color: rgb(255, 203, 139);
             grid-area: content;
-            grid-column-start: cline2;
-            grid-column-end: cline3;
-            grid-row-start: rline2;
-            grid-row-end: rline3;
+            
         }
         .footer {
             border: 2px solid violet;
             background-color: aqua;
-            grid-column-start: cline1;
-            grid-column-end: cline4;
-            grid-row-start: rline3;
-            grid-row-end: rline4;
+            grid-area: footer;
             text-align: center;
         }
     </style>
