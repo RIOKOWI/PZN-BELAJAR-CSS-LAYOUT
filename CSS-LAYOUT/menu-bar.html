@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .menubar {
+            display: inline-block;
+            border: 1px solid;
+        }
+        .menu {
+            background-color: aquamarine;
+            color: black;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .menulist {
+            display: none;
+            position: absolute;
+            background-color: red;
+            z-index: 1;
+        }
+
+        .menulist a {
+            color: black;
+            text-decoration: none;
+            display: block;
+            padding: 10px;
+        }
+
+        .menulist a:hover {
+            background-color: bisque;
+        }
+
+        .menubar:hover .menu {
+            background-color: bisque;
+        }
+        .menubar:hover .menulist {
+            display: block;
+        }
+        </style>
+</head>
+<body>
+    <div class="menubar">
+        <button class="menu">sosial media</button>
+        <div class="menulist">
+            <a href="">fesnuk</a>
+            <a href="">tktok</a>
+            <a href="">ig</a>
+            <a href="">wa</a>
+        </div>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio recusandae delectus, error quidem consequuntur qui suscipit possimus laudantium veritatis fugit eius labore voluptate nihil officia laboriosam et! Cupiditate, exercitationem delectus.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio recusandae delectus, error quidem consequuntur qui suscipit possimus laudantium veritatis fugit eius labore voluptate nihil officia laboriosam et! Cupiditate, exercitationem delectus.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio recusandae delectus, error quidem consequuntur qui suscipit possimus laudantium veritatis fugit eius labore voluptate nihil officia laboriosam et! Cupiditate, exercitationem delectus.</p>
+</body>
+</html>

@@ -20,3 +20,13 @@ FLEX GROW
 ROW = BARIS ATAS KE BAWAH
 COLLUMN = KOLOM KIRI KE KANAN 
 ====================================================
+
+WEB UNTUK CEK MEDIA TYPE
+https://www.w3.org/TR/CSS21/media.html
+
+WEB UNTUK CEK MEDIA FEATURES
+https://web.dev/learn/design/media-features
+
+REFERENSI MEDIA QUERIES
+
+https://www.w3schools.com/css/css_rwd_mediaqueries.asp
